@@ -3,7 +3,9 @@ import Hero from "@/components/mainComponent/home/Hero";
 import VerticalLine from "@/components/widgets/VerticalLine";
 import Course from "@/components/mainComponent/home/Course";
 import VirtualTour from "@/components/mainComponent/home/VirtualTour";
-import Faculity from "@/components/mainComponent/home/Faculity";
+import Facility from "@/components/mainComponent/home/Facility";
+import Testimonial from "@/components/mainComponent/home/Testimonial";
+import Future from "@/components/mainComponent/home/Future";
 export default function Home() {
   return (
     <>
@@ -13,7 +15,10 @@ export default function Home() {
       <VerticalLine />
       <VirtualTour />
       <VerticalLine />
-      <Faculity />
+      <Facility />
+      <VerticalLine />
+      <Testimonial />
+      <Future />
     </>
   );
 }

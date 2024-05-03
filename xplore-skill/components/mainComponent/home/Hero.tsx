@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import bg from "@/images/background/back1.png";
-
+import Button from "@/components/widgets/Button";
 function Hero() {
   return (
     <div
@@ -21,9 +21,7 @@ function Hero() {
         perspiciatis quo.
       </p>
       <Link href="/">
-        <button className="border-white text-white border p-3 px-4 rounded-md transition  ease-out hover:border-emerald-400 duration-300	 hover:bg-emerald-400 font-normal ">
-          Visit us to know More
-        </button>
+        <Button text=" Visit us to know More" />
       </Link>
     </div>
   );
